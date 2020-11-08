@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* -------------------- Start section Home --------------------*/
+
+.home {
+	height: 100vh;
+	background-image: url(img/cafe-bg.jpg), url(img/divi-cafe-hero.svg;);
+}
+
+.navbar-top {
+	height: 50px;
+	background-color: rgba(55,60,76,0.67);
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 700;
+	color: lightgrey;
+}
+
+.navbar-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar-item{
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.home-content {
+	background-image: url(img/divi-cafe-hero.svg;);
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0.0);
+	display: block;
+	box-sizing: border-box;
+	background-size: cover;
+	position: relative;
+
+}
+
+
+
+
+/* -------------------- End section Home --------------------*/
+
+
+
+
+
+/* -------------------- Start section line-img --------------------*/
+
+
+.line-img {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.img-line {
+	width: 25%;
+}
+
+.img1 {
+	background: url(img/img1.jpg);
+	background-size: cover;	
+	height: 400px;
+}
+
+.img2 {
+	background: url(img/img2.jpg);
+	background-size: cover;	
+	height: 400px;
+}
+
+.img3 {
+	background: url(img/img3.jpg);
+	background-size: cover;	
+	height: 400px;
+}
+
+.img4 {
+	background: url(img/img4.jpg);
+	background-size: cover;	
+	height: 400px;
+}
+
+
+/* -------------------- End section line-img --------------------*/
+
+
+
+
+
+/* -------------------- Start section craft gourmet --------------------*/
+
+.craft-gourmet {
+	display: flex;
+	flex-direction: row;
+}
+
+.craft-gourmet-part {
+	
+	width: 50%;
+	height: 500px;
+}
+
+.craft1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.craft2 {
+	background: url(img/img5.jpg);
+	background-size: cover;	
+	height: 500px;
+}
+
+.gourmet1 {
+	background: url(img/img6.jpg);
+	background-size: cover;	
+	height: 500px;
+}
+
+.gourmet2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.craft-gourmet-text {
+	width: 70%;
+}
+
+.text-gourmet-craft {
+ margin-top: 30px;
+}
+
+.craft-gourmet-text h1 {
+	text-transform: uppercase;
+}
+
+.title-gourmet-pastery {
+	color: #caa77e;
+	font-size: 40px;
+}
+
+.title-craft-coffee {
+	color: #546e87;
+	font-size: 40px;
+}
+
+.craft-gourmet-text p {
+	color: #6c6662;
+	line-height: 2;
+	text-align: justify;
+}
+
+.button-menu {
+	color: rgba(0,0,0,0.4);
+	background-color: #e6d8c2;
+	border-color: #e6d8c2;
+	letter-spacing: 4px;
+	transition: ease .3s;
+	text-transform: uppercase;
+	text-decoration: none; 
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+
+.button-menu:hover {
+	letter-spacing: 6px;
+	cursor: pointer; 
+}
+
+
+
+
+
+/* -------------------- End section craft-gourmet --------------------*/
+
+
+
+
+
+/* -------------------- Start section Artisan --------------------*/
+
+
+.artisan {
+	width: 50%;
+	padding-top: 30px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.artisan h1 {
+	color: #b75922;
+}
+
+
+.artisan p {
+	color: #6c6662;
+	line-height: 2;
+	text-align: justify;
+	width: 70%;
+}
+
+.img7 {
+	background: url(img/img7.png);
+	background-size: cover;	
+	width: 100%;
+	height: 800px;
+}
+
+.artisan-craft {
+	width: 100%;
+	background-color: #6c6662;
+	height: 1100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 100px;
+}
+
+.artisan-bread {
+	width: 40%;
+	background-color: rgb(61, 69, 83);
+
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.craft-coffee {
+	width: 40%;
+	background-color: rgb(76, 84, 97);
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 50px;	
+}
+
+.text-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;	
+}
+
+.text-item p, h2 {
+	margin-top: 15px;
+}
+
+.text-title, .text-item-title {
+	color: #f4e4cb;
+}
+
+.text-title, .text-item-title {
+	text-transform: uppercase;
+}
+
+.text-italic {
+	font-style: italic;
+	color: #afb1b5;
+}
+
+.text-price {
+	color: #ae725d
+}
+
+.text-title {
+	margin-top: 50px;
+}
+
+.icon-bread, .icon-coffee {
+	margin-top: 50px;
+}
+
+/* -------------------- End section Artisan --------------------*/
+
+
+
+/* -------------------- Start section Artisan craft --------------------*/
+
+
+
+/* -------------------- End section Artisan craft --------------------*/
+
+
+
+/* -------------------- Start section Contact --------------------*/
+
+.contact {
+	background: url(img/powedered-sugar.jpg);
+	background-size: cover;	
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+}
+
+.name-email {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.form input, textarea {
+	background-color: transparent;
+	border-color: #f4e4cb;
+	color: #f4e4cb;
+
+}
+.form input {
+	height: 30px;
+	width: 400px;
+	padding: 16px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.form textarea {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.submit-button {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.submit {
+	padding: 12px 40px;
+	background-color: #e6d8c2;
+	color: #2a343d;
+	letter-spacing: 4px;
+	transition: ease .3s; 
+}
+
+.submit:hover {
+	letter-spacing: 6px;
+	cursor: pointer;
+}
+
+/* -------------------- End section Contact --------------------*/
+
+
+
+
+
+/* -------------------- Start section navbar-bottom --------------------*/
+
+.navbar-bottom {
+	width: 100%;
+	background-color: #2a343d;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #bbb;
+	font-weight: bold;
+
+}
+
+/* -------------------- End section navbar-bottom --------------------*/
+
+
+
+
+
+/* -------------------- Start section footer --------------------*/
+
+.footer{
+	width: 100%;
+	background-color: rgba(0,0,0,0.07);
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-credit {
+	color: #666;
+	font-style: italic;
+
+}
+
+.footer-item {
+	margin-left: 10px;
+	color: #666;
+}
+
+/* -------------------- End section footer --------------------*/
